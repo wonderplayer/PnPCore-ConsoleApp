@@ -3,7 +3,7 @@ using PnP.Core.Services;
 namespace PnPCore
 {
     public class SharePoint{
-        const string Url = "";
+        const string Url = "https://contoso.sharepoint.com";
         Fence Fence;
 
         public SharePoint(IPnPContextFactory factory, Fence fence){
